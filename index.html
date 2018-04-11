@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>RequireJs</title>
+    </head>
+    <body>
+        <div>
+            <h1>RequireJs</h1>
+            <p>
+
+            </p>
+        </div>
+        Asynchronous Module Definition
+        <script data-main="js/config" src="node_modules/requirejs/require.js"></script>
+        <script>
+            require(['config'], function(){
+                require(['customJs/jsFile']);
+            });
+        </script>        
+    </body>
+</html>
